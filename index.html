@@ -13,19 +13,20 @@
       crossorigin="anonymous"
     />
 
-    <script type = "text/javascript" src="main.js"></script>  
+    <script type="text/javascript" src="main.js"></script>
 
     <title>Hide - Show</title>
   </head>
   <body>
+    <button onclick="hideShow();" type="button" class="btn btn-primary">
+      Clic here for hide or show form
+    </button>
 
-    <button onclick="mostrarOcultar();" type="button" class="btn btn-primary">Clic Aquí para mostrar u ocultar formulario</button>
+    <br />
+    <br />
+    <br />
 
-    <br>
-    <br>
-    <br>
-
-        <div id="hideDiv">
+    <div id="hideDiv" style="display: none">
       <form>
         <div class="form-group">
           <label for="exampleInputEmail1">Email address</label>

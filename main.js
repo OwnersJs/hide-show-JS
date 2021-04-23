@@ -1,8 +1,4 @@
-//oculto por defecto
-element = document.getElementById('hideDiv');
-element.style.display = 'none';  
-
-function mostrarOcultar(){
+function hideShow(){
   element = document.getElementById('hideDiv');
   estado = element.style.display;
   if(estado == 'none'){
@@ -11,4 +7,4 @@ function mostrarOcultar(){
   element.style.display = 'none'; 
   }
 
-}//end function mostrarOcultar
+}//end function hideShow
